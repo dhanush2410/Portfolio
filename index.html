@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title> DHANUSH PORTFOLIO</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/535fa1e1ba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="one">
+        <div class="two">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#one">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certification">Certification</a></li>
+                    <li><a href="#portfolio">project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="two-text">
+                <p>WEB Designer</p>
+                <h1>Hi, I'm <span>Dhanush</span><br>from Namakkal</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------About Me------------- -->
+    <div id="about">
+        <div class="three">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/two.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>I am Dhanush, currently pursuing my degree at Hindusthan College of Engineering and Technology,
+                        with an expected graduation in 2025. I am passionate about frontend development and dedicated to
+                        honing my skills in this field. Alongside my academic pursuits, I am actively learning various
+                        software courses to expand my technical expertise. In my free time, I enjoy listening to music,
+                        which helps me stay creative and motivated. My goal is to become a proficient frontend
+                        developer, creating user-friendly and visually appealing web applications.
+                    </p>
+                    <div class="title">
+                        <p class="tab-link active-1" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-link" onclick="opentab('Internship')">Internship</p>
+                    </div>
+                    <div class="tab-content nav-1" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>Proficient in creating responsive and interactive
+                                web applications.</li>
+                            <li><span>Programming Languages</span><br>Experienced in Java and Python for general-purpose
+                                programming.</li>
+                            <li><span>Data Analytics</span><br>Skilled in using Power BI and IBM Cognos for data
+                                visualization and business intelligence.</li>
+                            <li><span>Animation</span><br>Competent in using Blender for creating animations.</li>
+                            <li><span>Database Management</span><br>Knowledgeable in SQL for database querying and
+                                manipulation.</li>
+                            <li><span>Tools</span><br>Familiar with development and version control tools like VS Code
+                                and GitHub.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B.Tech Information technology at Hindusthan college of
+                                engineering and technology.<br>Current CGPA : <span class="cat-1">8.56</span></li>
+                            <li><span>2020-2021</span><br>12th-Government boys higer scondary school.<br>Percentage :
+                                <span class="cat-1">89%</span></li>
+                            <li><span>2018-2019</span><br>11th-Government boys higer scondary school.<br>Percentage :
+                                <span class="cat-1">83.4%</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Internship">
+                        <ul>
+                            <li><span>Novi Tech</span><br>Completed a 15 days Frontend development internship, designing
+                                and implementing responsive web interfaces using HTML, CSS, and JavaScript</li>
+                            <li><span>ELGi's Digital Innovation Dojo</span><br>Completed a internship in Blender 3D
+                                animation, creating detailed models, textures, and animations for various projects.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------cetfication------------- -->
+    <div id="certification">
+        <div class="container">
+            <h1><span style="color:   #3549cc">C</span>ertification</h1>
+            <div class="ibm">
+                <div>
+                    <h2>IBM</h2><br>
+                    <a style="color: #3549cc;" href="Document/ibm.pdf" target="_blank">certificate</a><br><br>
+                    <p>Certified in IBM, with foundational knowledge in Python programming, data visualization, and IBM Cognos for business intelligence. Proficient in basic RDBMS concepts and design thinking methodologies.</p>
+                    
+                </div>
+                <div>
+                    <h2>Infosys</h2><br>
+                    <a style="color: #3549cc" href="Document/infosys.pdf" target="_blank">certificate</a><br><br>
+                    <p>Certified in Infosys with understanding of basic Java concepts and object-oriented programming, proficiency in Python fundamentals and scripting, and knowledge of fundamental data structures and their applications.</p>
+                    
+                </div>
+                <div>
+                    <h2>TCS</h2><br>
+                    <a style="color: #3549cc" href="Document/tcs.pdf" target="_blank">certificate</a><br><br>
+                    <p>TCS Certification in communication, soft skills, presentation, resume writing, and telephone etiquette. Skilled in clear communication, impactful presentations, professional resumes, and effective telephone interactions.</p>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    <!----------------------------------------project----------------------------------------------------->
+    <div id="portfolio">
+        <div class="project">
+            <h1><span style="color: #3549cc;">P</span>roject</h1>
+            <div class="project-list">
+                <div class="list">
+                    <img src="image/portfolio.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>Explore my entire details</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="image/calculator.jpg" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Use my Calculator</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">Show more</a>
+
+
+        </div>
+    </div>
+<!----------------------------------------project----------------------------------------------------->
+   <div id="contact">
+      <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Contact 10dhanush24@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9600849417</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/duh.its.dhxnus_/#" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dhanushlakshmanan/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dhanush2410" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="Document/Dhanush Resume.pdf" download class="btn1">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn1 btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+      </div>
+   </div>
+   <div class="copyright">
+    <p><i class="fa-solid fa-heart"></i> copyright <i class="fa-solid fa-copyright"></i> Dhanush Lakshmanan</p>
+  </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-content");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-1");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("nav-1");
+            }
+            event.currentTarget.classList.add("active-1");
+            document.getElementById(tabname).classList.add("nav-1");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwEpNN8BDAhFcte5YLbaYmPYFd4Ei5jWAqOilrHtPhOn4FM-59_Psrykln9GlZbSSI/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent sucessfully"
+                setTimeout(function()
+                {
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+                
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
